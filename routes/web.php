@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\indexController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[indexController::class, 'index'])->name('index');
