@@ -1,1 +1,0 @@
-bajarigit add b.txt
